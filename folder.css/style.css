@@ -1,0 +1,35 @@
+i ,.layer , li{
+    cursor: pointer;
+}
+
+.sideBarlogo{
+    width: 70px;
+    height: 100%;
+   
+}
+
+.sideBar{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+.layer{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.662);
+    overflow: hidden;
+    transition: all 0.5s;
+
+}
+.parent{
+    overflow: hidden;
+}
+
+.parent:hover .layer{
+    top: 0;
+   
+}
